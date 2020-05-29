@@ -1,0 +1,132 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Work.ru</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+
+
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="connect">
+            <div class="s">
+
+                <a class="loo" href="index.html">Work.ru</a>
+                <button id="myBtn1" class="t" type="submit">Разместить вакансию</button>
+                <div id="myModal1" class="modal">
+                    <div class="modal-content">
+                        <span class="close close1">&times;</span>
+
+                        <form class="form2" id="add_vacancy">
+                            <span class="vv">Размещение вакансии</span><br><br>
+                            <span>Название вакансии</span><br>
+                            <input type="text" class="tex" name="name" size="30"><br><br>
+                            <span>Город</span><br>
+                            <select id="s1" size="1" name="town" class="tex">
+                                <option value="1">Москва</option>
+                                <option value="2">Санкт-Петербург</option></select><br><br>
+                            <span title="Указываются требования и условия работы, обязанности соискателя, а также заработная плата.">Описание вакансии</span><br>
+                            <textarea name="description"></textarea><br>
+                            <span title="Указывается название компании, контактные данные и адрес компании.">Информация о компании</span><br>
+                            <textarea name="description_company" style="font-family: Montserrat;"></textarea><br>
+                            <button class="ko">РАЗМЕСТИТЬ</button>
+                        </form>
+                    </div>
+                </div>
+                <button id="myBtn2" class="t" type="submit">Войти</button>
+                <div id="myModal2" class="modal">
+                    <div class="modal-content">
+                        <span class="close close2">&times;</span>
+                        <form class="form1">
+                            <span class="vv">Вход</span><br><br>
+                            <span>Номер телефона или e-mail</span><br>
+                            <input class="tex" type="text" name="ima" size="30"><br><br>
+                            <span>Пароль</span><br>
+                            <input class="tex" type="password" size="30" name="fam"><br><br>
+                            <button class="ko" type="submit">ВОЙТИ</button>
+                        </form>
+                    </div>
+                </div>
+                <button id="myBtn3" class="t" type="submit">Зарегистрироваться</button>
+                <div id="myModal3" class="modal">
+                    <div class="modal-content">
+                        <span class="close close3">&times;</span>
+                        <form class="form2">
+                            <span class="vv">Регистрация</span><br><br>
+                            <span>Ваше имя</span><br>
+                            <input class="tex" type="text" name="ima" size="30"><br><br>
+                            <span>Ваша фамилия</span><br>
+                            <input class="tex" type="text" name="fam" size="30"><br><br>
+                            <span>E-mail</span><br>
+                            <input type="email" class="tex" name="email" size="30"><br><br>
+                            <span>Телефон</span><br>
+                            <input type="number" class="tex" name="tel" size="30"><br><br>
+                            <button class="lo" type="submit">ЗАРЕГИСТРИРОВАТЬСЯ</button><br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <article>
+        <div class="connect">
+            <div class="f">
+                <input class="po" type="search" name="poisk" size="30">
+                <button class="n" type="submit">ПОИСК</button>
+            </div>
+        </div>
+
+        <div class="connect">
+            <span class="f1">О сайте</span><br>
+            <span class="f3">Work.ru - это быстрый бесплатный сервис 
+            поиска работы и подбора персонала.<br> С его помощью вы можете не только найти работу мечты, но и сами, являясь работодателем, <br> сформировать команду для своего дела.<br></span>
+
+            <div data-slider>
+                <div class="sl">
+                    <a class="lol" href="index.html">Курьер</a><br>
+                    <span>г. Москва</span><br>
+                    <span>от 20 тыс. до 25 тыс. рублей</span>
+                </div>
+                <div class="sl">
+                    <a class="lol" href="index.html">Врач-терапевт</a><br>
+                    <span>г. Санкт-Петербург</span><br>
+                    <span>от 30 тыс. до 35 тыс. рублей</span>
+                </div>
+                <div class="sl">
+                    <a class="lol" href="index.html">Строитель</a><br>
+                    <span>г.Санкт-Петербург</span><br>
+                    <span>от 50 тыс. рублей</span>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <div class="connect">
+            <div class="fo">
+                <a class="loo" href="index.html">Work.ru</a>
+                <a href="https://www.instagram.com/?hl=ru"><img class="t1" src="images/in.png"></a>
+                <a href="https://www.youtube.com/?gl=RU&hl=ru"><img class="t1" src="images/yo.png"></a>
+                <a href="https://ru-ru.facebook.com/"><img class="t1" src="images/fac.png"></a>
+                <a href="https://twitter.com/explore"><img class="t1" src="images/tw.png"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
